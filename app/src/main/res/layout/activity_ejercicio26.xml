@@ -4,33 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ejercicio26">
 
     <Button
-        android:id="@+id/btn26"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="ingEjer26"
-        android:text="Ejercicio 26"
+        android:onClick="ejecutar"
+        android:text="Reproducir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.39" />
 
-    <Button
-        android:id="@+id/btn15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="ingEjer15"
-        android:text="Ejercicio 15"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="51dp"
+        android:text="REPRODUCCION DE ARCHIVO MP3 DE LOCALIZADO EN INTERNET"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.591"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
-
+        app:layout_constraintVertical_bias="0.099" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

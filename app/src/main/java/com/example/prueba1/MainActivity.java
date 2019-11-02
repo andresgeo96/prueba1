@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void ingEjer26(View view){
+        Intent i = new Intent(this,ejercicio26.class);
+        startActivity(i);
+    }
+
 }
