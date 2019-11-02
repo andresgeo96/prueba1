@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void ingEjer51(View view){
+        Intent i = new Intent(this,ejercicio51.class);
+        startActivity(i);
+    }
+
 }
