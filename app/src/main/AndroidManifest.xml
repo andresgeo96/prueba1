@@ -16,7 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".actividad2"></activity>
+        <activity android:name=".ejercicio14P2"></activity>
+        <activity android:name=".ejercicio48" />
+        <activity android:name=".ejercicio34" />
+        <activity android:name=".ejercicio23" />
+        <activity android:name=".ejercicio14P1" />
+        <activity android:name=".actividad2" />
         <activity android:name=".ejercicio51" />
         <activity android:name=".ejercicio39" />
         <activity android:name=".ejercicio26" />

@@ -14,8 +14,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void ingEjer14P1(View view){
+        Intent i = new Intent(this,ejercicio14P1.class);
+        startActivity(i);
+    }
+
+    public void ingEjer14P2(View view){
+        Intent i = new Intent(this,ejercicio14P2.class);
+        startActivity(i);
+    }
+
     public void ingEjer15(View view){
         Intent i = new Intent(this,ejercicio15.class);
+        startActivity(i);
+    }
+
+    public void ingEjer23(View view){
+        Intent i = new Intent(this,ejercicio23.class);
         startActivity(i);
     }
 
@@ -24,8 +39,18 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void ingEjer34(View view){
+        Intent i = new Intent(this,ejercicio34.class);
+        startActivity(i);
+    }
+
     public void ingEjer39(View view){
         Intent i = new Intent(this,ejercicio39.class);
+        startActivity(i);
+    }
+
+    public void ingEjer48(View view){
+        Intent i = new Intent(this,ejercicio48.class);
         startActivity(i);
     }
 

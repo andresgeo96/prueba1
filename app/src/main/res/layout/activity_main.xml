@@ -7,6 +7,58 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn14P"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:onClick="ingEjer14P2"
+        android:text="EJERCICIO 14 (PROBLEMA 2)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <Button
+        android:id="@+id/btn48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ingEjer48"
+        android:text="Ejercicio 48"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/btn34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ingEjer39"
+        android:text="Ejercicio 34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ingEjer23"
+        android:text="Ejercicio 23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <Button
         android:id="@+id/btn26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.47" />
 
     <Button
         android:id="@+id/btn39"
@@ -30,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/btn51"
@@ -43,7 +95,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.911" />
 
     <Button
         android:id="@+id/btn15"
@@ -56,7 +108,20 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/btn14P1"
+        android:layout_width="152dp"
+        android:layout_height="55dp"
+        android:onClick="ingEjer14P1"
+        android:text="EJERCICIO 14 (PROBLEMA 1)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
