@@ -16,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registro"></activity>
+        <activity android:name=".Reproductor"></activity>
+        <activity android:name=".registro" />
         <activity android:name=".menu" />
         <activity android:name=".MainActivity" />
         <activity android:name=".ejercicio14P2" />

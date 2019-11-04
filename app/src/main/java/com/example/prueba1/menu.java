@@ -97,4 +97,9 @@ public class menu extends AppCompatActivity {
         Intent llamar = new Intent(this,ejercicio51.class);
         startActivity(llamar);
     }
+
+    public void LlamarReproductor(View view){
+        Intent llamar = new Intent(this,Reproductor.class);
+        startActivity(llamar);
+    }
 }
