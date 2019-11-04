@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.net.Uri;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -31,7 +30,7 @@ public class actividad2 extends AppCompatActivity {
         lv1=(ListView)findViewById(R.id.listView1);
         lv1.setAdapter(adaptador1);
 
-        vv1=(VideoView)findViewById(R.id.videoView1);
+        vv1=(VideoView)findViewById(R.id.videoview1);
 
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 

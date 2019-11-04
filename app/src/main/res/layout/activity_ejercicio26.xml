@@ -6,29 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".ejercicio26">
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="366dp"
+        android:layout_height="55dp"
+        android:text="REPRODUCCION DE ARCHIVO MP3 DE LOCALIZADO EN INTERNET"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="166dp"
+        android:layout_height="38dp"
+        android:text="EJERCICIO 26"
+        android:textColor="#F44336"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ejecutar"
-        android:text="Reproducir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="273dp"
-        android:layout_height="51dp"
-        android:text="REPRODUCCION DE ARCHIVO MP3 DE LOCALIZADO EN INTERNET"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.591"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.584"
+        app:srcCompat="@drawable/reproducir" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

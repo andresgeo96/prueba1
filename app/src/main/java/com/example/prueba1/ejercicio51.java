@@ -1,6 +1,5 @@
 package com.example.prueba1;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -10,13 +9,9 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 import java.io.File;
@@ -32,7 +27,7 @@ public class ejercicio51 extends AppCompatActivity {
         setContentView(R.layout.activity_ejercicio51);
 
         et1=(EditText)findViewById(R.id.editText1);
-        vv1=(VideoView)findViewById(R.id.videoView1);
+        vv1=(VideoView)findViewById(R.id.videoview1);
 
         if (ContextCompat.checkSelfPermission(ejercicio51.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(ejercicio51.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(ejercicio51.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, 1000);

@@ -18,14 +18,14 @@
         <ListView
             android:id="@+id/listView1"
             android:layout_width="match_parent"
-            android:layout_height="100dp" >
+            android:layout_height="100dp">
 
         </ListView>
 
         <VideoView
-            android:id="@+id/videoView1"
-            android:layout_width="match_parent"
-            android:layout_height="594dp" />
+            android:id="@+id/videoview1"
+            android:layout_width="431dp"
+            android:layout_height="430dp" />
 
     </LinearLayout>
 

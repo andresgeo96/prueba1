@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354561551340",
+    "firebase_url": "https://basededatos-e8ff2.firebaseio.com",
+    "project_id": "basededatos-e8ff2",
+    "storage_bucket": "basededatos-e8ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354561551340:android:832110a89f75a595c42ec9",
+        "android_client_info": {
+          "package_name": "com.example.prueba1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354561551340-lgj97fk8sp27d4l6gliet5u05phtnvo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prueba1",
+            "certificate_hash": "5a247614c5a8883dfaaeba1638192f4eb6a6421b"
+          }
+        },
+        {
+          "client_id": "354561551340-79epfaarr22mqrmghfo0p7j5kuek9ksa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSCepVR3-ZeT6bTzJa-gaE7Lf-7XjWUL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354561551340-79epfaarr22mqrmghfo0p7j5kuek9ksa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

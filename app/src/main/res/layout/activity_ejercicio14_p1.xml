@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/et1"
-        android:layout_width="359dp"
-        android:layout_height="373dp"
+        android:layout_width="394dp"
+        android:layout_height="259dp"
         android:background="@color/colorAccent"
         android:ems="10"
         android:gravity="top|left"
@@ -17,9 +17,10 @@
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.415" />
 
     <ImageButton
         android:id="@+id/salir"
@@ -28,23 +29,37 @@
         android:onClick="salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
+        app:layout_constraintVertical_bias="0.787"
         app:srcCompat="@drawable/ic_sign_out" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="250dp"
+        android:layout_height="26dp"
+        android:text="EJERCICIO 14 PARTE 1"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="72dp"
-        android:layout_height="60dp"
+        android:id="@+id/imageButton9"
+        android:layout_width="66dp"
+        android:layout_height="63dp"
         android:onClick="grabar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086"
-        app:srcCompat="@drawable/ic_clipboard_with_pencil_" />
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/guardar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
